@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
+        //SECTION - Third change. Create Category class to represent product categories.
         public int CategoryId { get; set; }
 
         [Required]
