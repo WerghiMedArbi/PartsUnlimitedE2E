@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        //SECTION - first change. Add ILineItem interface to CartItem class definition.
         [Key]
         public int CartItemId { get; set; }
 
